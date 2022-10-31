@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game JS</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="hello_players">
+                <span class="jump-1">H</span>
+                <span class="jump-2">e</span>
+                <span class="jump-3">l</span>
+                <span class="jump-4">l</span>
+                <span class="jump-5">o</span>
+                ^_^ <br>
+                Let's play? Press start!
+            </div>
+            <div class="main_wrapper">
+                <div class="choice">
+                    <div class="choice_user">User</div>
+                    <div class="scoreboard">
+                        <span id="user-score">0</span>
+                        VS
+                        <span id="comp-score">0</span>
+                         <br>
+                         <br>
+                        <span class="win-lose"></span>
+                    </div>
+                    <div class="choice_comp">Computer</div>
+                </div>
+                
+                <div class="img_wrapper">
+                    <div class="img">
+                        <button value="stone" class="choice-btn">
+                            <img  class="icons_user" id="stone" src="./icons/rock.png" alt="stone">
+                        </button>
+                        <button value="scissors" class="choice-btn">
+                            <img class="icons_user" id="scissors" src="./icons/scissors.png" alt="scissors">
+                        </button>
+                        <button value="paper" class="choice-btn">
+                            <img class="icons_user" id="paper" src="./icons/paper.png" alt="paper">
+                        </button>
+                        <div class="img_comp">
+                            <img class="icons_comp" src="./icons/what_icon.png" alt="what">
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="buttons">
+                    <button class="button-start" id="start">START</button>
+                </div>
+
+            </div>
+
+            <div class="rules_wrapper">
+                <div><button class="rules">rules</button></div>
+            </div>
+
+            <div class="modal">
+                <div class="modal-content modal-content-active ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, nihil!</div>
+                <div class="close"><button class="closeBtn"></button></div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
